@@ -1,0 +1,25 @@
+.background-img {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3fffe330-0a41-49ed-9885-6e3aba462e70/ddxkac6-ebe2ffce-8080-4ebf-b301-598019f384b0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmZmZlMzMwLTBhNDEtNDllZC05ODg1LTZlM2FiYTQ2MmU3MFwvZGR4a2FjNi1lYmUyZmZjZS04MDgwLTRlYmYtYjMwMS01OTgwMTlmMzg0YjAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.axxzTibMfkRu03fwZBSQTnycdkMOj-U14iKZzrsMUhI);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boss-attack {
+    animation: bossAttack .25s;
+}
+
+@keyframes bossAttack {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, -50px);
+
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
